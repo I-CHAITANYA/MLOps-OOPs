@@ -31,8 +31,9 @@
     >> single inheritance
     >> multilevel 
     >> hierarchical
-    >> multiple <diamond problem>
-    
+    >> multiple <diamond problem>\
+    >> hybrid
+
 
 
 
