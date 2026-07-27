@@ -1,12 +1,30 @@
 class chatbook:
+    __user_id = 1
     def __init__(self):
+        self.id = chatbook.__user_id
+        chatbook.__user_id += 1
+        self.__name = "Default User"     # hidden attribute
         self.username = ""
         self.password = ""
         self.logged_in = False
-        self.menu()
+        #self.menu()
 
 
+    @staticmethod
+    def get_id():
+        return chatbook.__user_id
 
+    @staticmethod
+    def set_id(id):
+        chatbook.__user_id = id
+
+
+    def get_name(self):
+        return self.__name
+
+
+    def set_name(self, name):
+        self.__name = name 
 
 
     def menu(self):
@@ -77,7 +95,7 @@ class chatbook:
             friend = input("whom to send message?")
             print(f"Your message has been successfully delivered to {friend}")
         else:
-            print("Pls input correct credentials...")
+            print("You need to sign in to post something.")
         print("\n")
         self.menu()       
 

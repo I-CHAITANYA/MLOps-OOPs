@@ -16,6 +16,8 @@ class Employee:
 
 # create an obj/instance of the class
 sam = Employee()
+sam.name = "Sam" # attribute outside the class
 
 print(sam.salary)
+print(sam.name)
 sam.travel("Bangalore")

@@ -11,7 +11,12 @@
     >> easy to collab
 
 5. end to end project (chatbook class)
-    >>encapsulation
+    >> function vs method
+    >> special/magic/dunder method
+    >> self
+    >> you can create attribute outside of class as well
+    >>
+    >> encapsulation
     >> getter and setter
     >> static method
 
